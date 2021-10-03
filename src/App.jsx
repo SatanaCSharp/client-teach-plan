@@ -1,11 +1,12 @@
 import React from 'react';
-import Login from './pages/login';
+import { RecoilRoot } from 'recoil';
+import LoginPage from './pages/login.page';
 
 function App() {
   return (
-    <div className="App">
-      <Login />
-    </div>
+    <RecoilRoot>
+      <LoginPage />
+    </RecoilRoot>
   );
 }
 
